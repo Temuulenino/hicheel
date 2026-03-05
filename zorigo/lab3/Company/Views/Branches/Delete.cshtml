@@ -1,0 +1,19 @@
+﻿@model Company.Models.Branch
+@{
+    ViewData["Title"] = "Устгах";
+}
+
+<h1>Салбар устгах</h1>
+<p class="text-danger">Анхаар: Энэ салбарыг устгавал хамааралтай ажилчдын мэдээлэлд нөлөөлж болзошгүй!</p>
+<div>
+    <dl class="row">
+        <dt class="col-sm-4">Салбарын нэр:</dt>
+        <dd class="col-sm-8">@Model.Branchname</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Branchid" />
+        <input type="submit" value="Устгах" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Цуцлах</a>
+    </form>
+</div>

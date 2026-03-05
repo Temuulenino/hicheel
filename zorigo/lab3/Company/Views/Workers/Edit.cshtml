@@ -1,0 +1,30 @@
+﻿@model Company.Models.Worker
+@{
+    ViewData["Title"] = "Засах";
+}
+
+<h1>Ажилтны мэдээлэл засах</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="Workerid" />
+            <div class="form-group">
+                <label class="control-label">Овог нэр</label>
+                <input asp-for="Fullname" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Албан тушаал</label>
+                <input asp-for="Position" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Салбар</label>
+                <select asp-for="Branchid" class="form-control" asp-items="ViewBag.Branchid"></select>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Хадгалах" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-secondary">Буцах</a>
+            </div>
+        </form>
+    </div>
+</div>

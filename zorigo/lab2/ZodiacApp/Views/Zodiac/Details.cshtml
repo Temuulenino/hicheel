@@ -1,0 +1,44 @@
+﻿@model ZodiacApp.Models.Zodiac
+
+<div class="container mt-4">
+
+    <div class="card mx-auto" style="max-width:600px">
+
+        <img src="@Model.ImageURL" class="card-img-top" />
+
+        <div class="card-body text-center">
+
+            <h2 id="nameMN">@Model.AnimalMN</h2>
+            <h2 id="nameENG" style="display:none">@Model.AnimalENG</h2>
+
+            <p id="descMN">@Model.DescriptionMN</p>
+            <p id="descENG" style="display:none">@Model.DescriptionENG</p>
+
+            <button class="btn btn-primary mt-3"
+                    onclick="toggleLang()">
+                MN / ENG
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    function toggleLang(){
+
+        const mn = document.querySelectorAll('#nameMN,#descMN');
+        const eng = document.querySelectorAll('#nameENG,#descENG');
+
+        mn.forEach(e=>{
+            e.style.display =
+                e.style.display === "none" ? "block" : "none";
+        });
+
+        eng.forEach(e=>{
+            e.style.display =
+                e.style.display === "none" ? "block" : "none";
+        });
+    }
+</script>

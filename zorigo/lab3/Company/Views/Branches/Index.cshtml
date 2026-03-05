@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Company.Models.Branch>
+
+@{
+    ViewData["Title"] = "Салбарууд";
+}
+
+<h1>Салбарын жагсаалт</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Шинэ салбар нэмэх</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Салбарын нэр</th>
+            <th>Үйлдэл</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Branchname</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Branchid">Засах</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Branchid">Устгах</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

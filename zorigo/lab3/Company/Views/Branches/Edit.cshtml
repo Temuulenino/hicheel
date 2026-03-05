@@ -1,0 +1,22 @@
+﻿@model Company.Models.Branch
+@{
+    ViewData["Title"] = "Засах";
+}
+
+<h1>Салбарын нэр засах</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="Branchid" />
+            <div class="form-group">
+                <label class="control-label">Салбарын нэр</label>
+                <input asp-for="Branchname" class="form-control" />
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Хадгалах" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-secondary">Буцах</a>
+            </div>
+        </form>
+    </div>
+</div>

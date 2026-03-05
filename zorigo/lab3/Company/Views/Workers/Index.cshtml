@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Company.Models.Worker>
+
+@{
+    ViewData["Title"] = "Ажилчдын жагсаалт";
+}
+
+<h1>Ажилчдын бүртгэл</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Шинэ ажилтан бүртгэх</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Нэр</th>
+            <th>Албан тушаал</th>
+            <th>Салбар</th>
+            <th>Үйлдэл</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Fullname</td>
+                <td>@item.Position</td>
+                <td>@item.Branch?.Branchname</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Workerid">Засах</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Workerid">Устгах</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

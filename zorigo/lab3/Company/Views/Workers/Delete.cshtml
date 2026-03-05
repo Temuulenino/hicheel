@@ -1,0 +1,22 @@
+﻿@model Company.Models.Worker
+@{
+    ViewData["Title"] = "Устгах";
+}
+
+<h1>Устгахдаа итгэлтэй байна уу?</h1>
+<div>
+    <h4>Ажилтан: @Model.Fullname</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-4">Албан тушаал:</dt>
+        <dd class="col-sm-8">@Model.Position</dd>
+        <dt class="col-sm-4">Салбар:</dt>
+        <dd class="col-sm-8">@Model.Branch?.Branchname</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Workerid" />
+        <input type="submit" value="Устгах" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Цуцлах</a>
+    </form>
+</div>

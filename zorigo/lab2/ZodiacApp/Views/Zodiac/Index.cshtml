@@ -1,0 +1,73 @@
+﻿@model List<ZodiacApp.Models.Zodiac>
+
+<div class="text-end mb-3">
+    <button class="btn btn-dark btn-outline-primary" onclick="toggleLanguage()">
+        🌐 MN / ENG
+    </button>
+</div>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+
+            <a asp-controller="Zodiac"
+               asp-action="Details"
+               asp-route-id="@item.Id"
+               class="text-decoration-none text-dark">
+
+                <div class="card h-100">
+
+                    <img src="@item.ImageURL" class="card-img-top" />
+
+                    <div class="card-body">
+                        <div class="card-body text-center">
+
+                            <!-- NAME -->
+                            <h5 class="name-mn">@item.AnimalMN</h5>
+                            <h5 class="name-eng" style="display:none">
+                                @item.AnimalENG
+                            </h5>
+
+                            <!-- DESCRIPTION -->
+                            <p class="desc-mn">@item.DescriptionMN</p>
+                            <p class="desc-eng" style="display:none">
+                                @item.DescriptionENG
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+    }
+
+</div>
+
+<script>
+    function toggleLanguage(){
+
+        const mnTexts = document.querySelectorAll(
+            '.name-mn, .desc-mn'
+        );
+
+        const engTexts = document.querySelectorAll(
+            '.name-eng, .desc-eng'
+        );
+
+        mnTexts.forEach(el=>{
+            el.style.display =
+                el.style.display === "none" ? "block" : "none";
+        });
+
+        engTexts.forEach(el=>{
+            el.style.display =
+                el.style.display === "none" ? "block" : "none";
+        });
+    }
+</script>
