@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model week2.Models.Worker
+
+<h2>Шинэ ажилтан нэмэх</h2>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="wname" class="form-label"></label>
+        <input asp-for="wname" class="form-control" />
+        <span asp-validation-for="wname" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="salary" class="form-label"></label>
+        <input asp-for="salary" class="form-control" />
+        <span asp-validation-for="salary" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="branchID" class="form-label">Салбар</label>
+        <select asp-for="branchID" asp-items="ViewBag.branchID" class="form-control">
+            <option value="">-- Салбар сонгоно уу --</option>
+        </select>
+        <span asp-validation-for="branchID" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Хадгалах</button>
+    <a asp-action="Index" class="btn btn-secondary">Буцах</a>
+</form>

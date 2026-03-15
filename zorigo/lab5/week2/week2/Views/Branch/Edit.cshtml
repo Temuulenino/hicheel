@@ -1,0 +1,23 @@
+﻿@model week2.Models.Branch
+
+<h2>Салбар засах</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="branchID" />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="bname" class="form-label"></label>
+        <input asp-for="bname" class="form-control" />
+        <span asp-validation-for="bname" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="address" class="form-label"></label>
+        <input asp-for="address" class="form-control" />
+        <span asp-validation-for="address" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-warning">Хадгалах</button>
+    <a asp-action="Index" class="btn btn-secondary">Буцах</a>
+</form>

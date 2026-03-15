@@ -1,0 +1,27 @@
+﻿@model IEnumerable<week2.Models.Branch>
+
+<h2>Салбарын жагсаалт</h2>
+<a asp-action="Create" class="btn btn-primary mb-3">+ Шинэ салбар</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Салбарын нэр</th>
+            <th>Хаяг</th>
+            <th>Үйлдэл</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.bname</td>
+                <td>@item.address</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.branchID" class="btn btn-warning btn-sm">Засах</a>
+                    <a asp-action="Delete" asp-route-id="@item.branchID" class="btn btn-danger btn-sm">Устгах</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

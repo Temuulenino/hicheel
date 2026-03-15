@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HiTech\\source\\repos\\week2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|c:\\users\\hitech\\source\\repos\\week2\\week2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|solutionrelative:week2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|c:\\users\\hitech\\source\\repos\\week2\\week2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|solutionrelative:week2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Migrations\\20260315085200_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:week2\\Migrations\\20260315085200_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|c:\\users\\hitech\\source\\repos\\week2\\week2\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|solutionrelative:week2\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|c:\\users\\hitech\\source\\repos\\week2\\week2\\models\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|solutionrelative:week2\\models\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|c:\\users\\hitech\\source\\repos\\week2\\week2\\models\\employeectx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073EA64E-5CBD-4A41-A968-82302D7B97B1}|week2\\week2.csproj|solutionrelative:week2\\models\\employeectx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260315085200_initialcreate.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Migrations\\20260315085200_initialcreate.cs",
+              "RelativeDocumentMoniker": "week2\\Migrations\\20260315085200_initialcreate.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Migrations\\20260315085200_initialcreate.cs",
+              "RelativeToolTip": "week2\\Migrations\\20260315085200_initialcreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:52:00.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Program.cs",
+              "RelativeDocumentMoniker": "week2\\Program.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Program.cs",
+              "RelativeToolTip": "week2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:49:03.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\appsettings.json",
+              "RelativeDocumentMoniker": "week2\\appsettings.json",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\appsettings.json*",
+              "RelativeToolTip": "week2\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-15T08:46:58.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeCtx.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Models\\EmployeeCtx.cs",
+              "RelativeDocumentMoniker": "week2\\Models\\EmployeeCtx.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Models\\EmployeeCtx.cs",
+              "RelativeToolTip": "week2\\Models\\EmployeeCtx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:45:00.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Models\\Worker.cs",
+              "RelativeDocumentMoniker": "week2\\Models\\Worker.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Models\\Worker.cs",
+              "RelativeToolTip": "week2\\Models\\Worker.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:44:04.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "week2\\Models\\Branch.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\week2\\week2\\Models\\Branch.cs",
+              "RelativeToolTip": "week2\\Models\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:42:59.096Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

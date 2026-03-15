@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<week2.Models.Worker>
+
+<h2>Ажилтны жагсаалт</h2>
+<a asp-action="Create" class="btn btn-primary mb-3">+ Шинэ ажилтан</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ажилтны нэр</th>
+            <th>Цалин</th>
+            <th>Салбар</th>
+            <th>Үйлдэл</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.wname</td>
+                <td>@item.salary.ToString("N0")₮</td>
+                <td>@item.branch?.bname</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-warning btn-sm">Засах</a>
+                    <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger btn-sm">Устгах</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
