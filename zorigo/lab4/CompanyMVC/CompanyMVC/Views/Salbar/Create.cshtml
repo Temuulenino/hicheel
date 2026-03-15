@@ -1,0 +1,29 @@
+﻿@model CompanyMVC.Models.Salbar
+@{
+    ViewData["Title"] = "Салбар нэмэх";
+}
+
+<h2>➕ Шинэ салбар нэмэх</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Ner" class="form-label"></label>
+                <input asp-for="Ner" class="form-control" />
+                <span asp-validation-for="Ner" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Hayg" class="form-label"></label>
+                <input asp-for="Hayg" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Utasny_dugaar" class="form-label"></label>
+                <input asp-for="Utasny_dugaar" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Хадгалах</button>
+            <a asp-action="Index" class="btn btn-secondary">Буцах</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+﻿@model CompanyMVC.Models.Ajiltan
+@{
+    ViewData["Title"] = "Ажилтан устгах";
+}
+
+<h2>🗑️ Ажилтан устгах</h2>
+<hr />
+<h4 class="text-danger">Та энэ ажилтаныг устгахдаа итгэлтэй байна уу?</h4>
+<div class="card p-3 mb-3" style="max-width:400px">
+    <p><strong>Овог:</strong> @Model.Ovog</p>
+    <p><strong>Нэр:</strong> @Model.Ner</p>
+</div>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="AjiltanId" />
+    <button type="submit" class="btn btn-danger">Устгах</button>
+    <a asp-action="Index" class="btn btn-secondary">Буцах</a>
+</form>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<CompanyMVC.Models.Ajiltan>
+@{
+    ViewData["Title"] = "Ажилтны жагсаалт";
+}
+
+<h2 class="mb-3">👤 Ажилтны жагсаалт</h2>
+<a asp-action="Create" class="btn btn-primary mb-3">+ Шинэ ажилтан нэмэх</a>
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>№</th>
+            <th>Овог</th>
+            <th>Нэр</th>
+            <th>Аймаг код</th>
+            <th>Төрөл</th>
+            <th>Цалин</th>
+            <th>Салбар</th>
+            <th>Үйлдэл</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AjiltanId</td>
+                <td>@item.Ovog</td>
+                <td>@item.Ner</td>
+                <td>@item.Aimag_kod</td>
+                <td>@item.Turul</td>
+                <td>@item.Tsalin.ToString("N0")₮</td>
+                <td>@item.Salbar?.Ner</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AjiltanId"
+                       class="btn btn-warning btn-sm">✏️ Засах</a>
+                    <a asp-action="Delete" asp-route-id="@item.AjiltanId"
+                       class="btn btn-danger btn-sm">🗑️ Устгах</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

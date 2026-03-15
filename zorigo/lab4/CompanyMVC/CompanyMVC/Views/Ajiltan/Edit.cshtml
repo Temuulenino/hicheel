@@ -1,0 +1,47 @@
+﻿@model CompanyMVC.Models.Ajiltan
+@{
+    ViewData["Title"] = "Ажилтан засах";
+}
+
+<h2>✏️ Ажилтан засах</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="AjiltanId" />
+            <div class="mb-3">
+                <label asp-for="Ovog" class="form-label"></label>
+                <input asp-for="Ovog" class="form-control" />
+                <span asp-validation-for="Ovog" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Ner" class="form-label"></label>
+                <input asp-for="Ner" class="form-control" />
+                <span asp-validation-for="Ner" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Aimag_kod" class="form-label"></label>
+                <input asp-for="Aimag_kod" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Turul" class="form-label"></label>
+                <input asp-for="Turul" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Tsalin" class="form-label"></label>
+                <input asp-for="Tsalin" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="SalbarId" class="form-label"></label>
+                <select asp-for="SalbarId" asp-items="ViewBag.SalbarList"
+                        class="form-select">
+                    <option value="">-- Салбар сонгоно уу --</option>
+                </select>
+                <span asp-validation-for="SalbarId" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-warning">Хадгалах</button>
+            <a asp-action="Index" class="btn btn-secondary">Буцах</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "isux4LxPTC0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HiTech\\OneDrive\\Documents\\GitHub\\hicheel\\zorigo\\CompanyMVC\\CompanyMVC\\CompanyMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HiTech\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

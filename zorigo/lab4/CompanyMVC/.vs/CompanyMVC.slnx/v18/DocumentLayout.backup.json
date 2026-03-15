@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\models\\ajiltan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\models\\ajiltan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\controllers\\salbarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\controllers\\salbarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\controllers\\ajiltancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\controllers\\ajiltancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\ajiltan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\ajiltan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\ajiltan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\ajiltan\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\ajiltan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\ajiltan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\ajiltan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\ajiltan\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\salbar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\salbar\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\salbar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\salbar\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\salbar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\salbar\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\views\\salbar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\views\\salbar\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\models\\salbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\models\\salbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|c:\\users\\hitech\\source\\repos\\companymvc\\companymvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8A647D6-DCAF-435B-97AD-BFD02331C374}|CompanyMVC\\CompanyMVC.csproj|solutionrelative:companymvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:20:30.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Ajiltan\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Ajiltan\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Ajiltan\\Delete.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Ajiltan\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:20:06.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Ajiltan\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Ajiltan\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Ajiltan\\Edit.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Ajiltan\\Edit.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:19:53.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Ajiltan\\Create.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Ajiltan\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Ajiltan\\Create.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Ajiltan\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:19:40.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Ajiltan\\Index.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Ajiltan\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Ajiltan\\Index.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Ajiltan\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:19:25.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Salbar\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Salbar\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Salbar\\Delete.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Salbar\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:18:46.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Salbar\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Salbar\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Salbar\\Edit.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Salbar\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:18:26.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Salbar\\Create.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Salbar\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Salbar\\Create.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Salbar\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:18:10.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Salbar\\Index.cshtml",
+              "RelativeDocumentMoniker": "CompanyMVC\\Views\\Salbar\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Views\\Salbar\\Index.cshtml",
+              "RelativeToolTip": "CompanyMVC\\Views\\Salbar\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-15T08:17:50.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AjiltanController.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Controllers\\AjiltanController.cs",
+              "RelativeDocumentMoniker": "CompanyMVC\\Controllers\\AjiltanController.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Controllers\\AjiltanController.cs",
+              "RelativeToolTip": "CompanyMVC\\Controllers\\AjiltanController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAwLYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:16:39.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalbarController.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Controllers\\SalbarController.cs",
+              "RelativeDocumentMoniker": "CompanyMVC\\Controllers\\SalbarController.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Controllers\\SalbarController.cs",
+              "RelativeToolTip": "CompanyMVC\\Controllers\\SalbarController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:15:41.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ajiltan.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Models\\Ajiltan.cs",
+              "RelativeDocumentMoniker": "CompanyMVC\\Models\\Ajiltan.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Models\\Ajiltan.cs",
+              "RelativeToolTip": "CompanyMVC\\Models\\Ajiltan.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvxMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:14:49.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Salbar.cs",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Models\\Salbar.cs",
+              "RelativeDocumentMoniker": "CompanyMVC\\Models\\Salbar.cs",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\Models\\Salbar.cs",
+              "RelativeToolTip": "CompanyMVC\\Models\\Salbar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T08:14:18.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "CompanyMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\HiTech\\source\\repos\\CompanyMVC\\CompanyMVC\\appsettings.json",
+              "RelativeToolTip": "CompanyMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-15T08:12:48.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
