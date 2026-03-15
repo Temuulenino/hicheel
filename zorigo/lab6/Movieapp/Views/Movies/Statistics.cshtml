@@ -1,0 +1,39 @@
+@{
+    var top = ViewBag.TopRated as MovieApp.Models.Movie;
+    var low = ViewBag.LowestRated as MovieApp.Models.Movie;
+    var sorted = ViewBag.SortedMovies as List<MovieApp.Models.Movie>;
+}
+
+<h2>Статистик мэдээлэл</h2>
+
+<div class="card p-3 mb-3">
+    <p>Дундаж үнэлгээ: <strong>@ViewBag.AverageRating</strong></p>
+    <p>Хамгийн өндөр үнэлгээтэй: <strong>@top.Title (@top.Rating ⭐)</strong></p>
+    <p>Хамгийн бага үнэлгээтэй: <strong>@low.Title (@low.Rating ⭐)</strong></p>
+</div>
+
+<h3>Үнэлгээгээр эрэмбэлсэн жагсаалт</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Нэр</th>
+            <th>Ангилал</th>
+            <th>Он</th>
+            <th>Үнэлгээ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in sorted)
+        {
+            <tr>
+                <td>@movie.Title</td>
+                <td>@movie.Genre.Name</td>
+                <td>@movie.ReleaseYear</td>
+                <td>@movie.Rating ⭐</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index">Буцах</a>

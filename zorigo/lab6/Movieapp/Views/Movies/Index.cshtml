@@ -1,0 +1,30 @@
+@model IEnumerable<MovieApp.Models.Movie>
+
+<h2>Кинонуудын жагсаалт</h2>
+
+<a asp-action="FilterByGenre" asp-route-genre="Action">Action</a> |
+<a asp-action="FilterByGenre" asp-route-genre="Drama">Drama</a> |
+<a asp-action="FilterByGenre" asp-route-genre="Comedy">Comedy</a> |
+<a asp-action="Statistics">Статистик</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Нэр</th>
+            <th>Ангилал</th>
+            <th>Он</th>
+            <th>Үнэлгээ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@movie.Title</td>
+                <td>@movie.Genre.Name</td>
+                <td>@movie.ReleaseYear</td>
+                <td>@movie.Rating</td>
+            </tr>
+        }
+    </tbody>
+</table>
